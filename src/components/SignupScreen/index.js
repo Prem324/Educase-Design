@@ -1,40 +1,59 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./index.css";
 
 const SignupScreen = () => {
   return (
-    <div>
-      <h1>Create your PopX account</h1>
+    <div className="signup-screen">
+      <h1>
+        Create your
+        <br />
+        PopX account
+      </h1>
+      <fieldset>
+        <legend>
+          Full Name<span className="required">*</span>
+        </legend>
+        <input type="text" placeholder="Marry Doe" />
+      </fieldset>
+      <fieldset>
+        <legend>
+          Phone number<span className="required">*</span>
+        </legend>
+        <input type="text" placeholder="Marry Doe" />
+      </fieldset>
+      <fieldset>
+        <legend>
+          Email address<span className="required">*</span>
+        </legend>
+        <input type="text" placeholder="Marry Doe" />
+      </fieldset>
 
       <fieldset>
-        <legend>Full Name</legend>
-        Marry Doe
+        <legend>
+          Password<span className="required">*</span>
+        </legend>
+        <input type="text" placeholder="Marry Doe" />
       </fieldset>
       <fieldset>
-        <legend>Phone Number</legend>
-        Marry Doe
+        <legend>Company name</legend>
+        <input type="text" placeholder="Marry Doe" />
       </fieldset>
-      <fieldset>
-        <legend>Email Adress</legend>
-        Marry Doe
-      </fieldset>
+      <div className="checkbox-container">
+        <p>
+          Are you an Agency?<span className="required">*</span>
+        </p>
+        <div>
+          <input type="checkbox" checked />
+          <label>Yes</label>
+          <input type="checkbox" />
+          <label>No</label>
+        </div>
+      </div>
 
-      <fieldset>
-        <legend>Password</legend>
-        Marry Doe
-      </fieldset>
-      <fieldset>
-        <legend>Company Name</legend>
-        Marry Doe
-      </fieldset>
-      <p>Are you an Agency?</p>
-      <input type="checkbox" />
-      <label>Yes</label>
-      <input type="checkbox" />
-      <label>No</label>
       <Link to="/profile">
         {" "}
-        <button>Create Account</button>
+        <button className="cre-acc-btn">Create Account</button>
       </Link>
     </div>
   );

@@ -1,0 +1,32 @@
+.signup-screen {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  padding: 20px;
+  width: 100%;
+  gap: 1rem;
+}
+
+.required {
+  color: red;
+}
+
+.signup-screen input::placeholder {
+  color: #1d2226;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 14px;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+  margin-right: 1rem;
+  margin-left: 0.4rem;
+}
+
+.signup-screen button {
+}
