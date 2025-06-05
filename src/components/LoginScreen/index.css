@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  padding: 20px;
+  padding: 40px 20px;
   width: 100%;
   gap: 1rem;
 }
 
+.login-screen h1 {
+  font-size: 28px;
+}
 .login-screen p {
   color: #1d2226;
   opacity: 60%;
@@ -27,6 +30,10 @@ legend {
   font-size: 13px;
 }
 
+fieldset:hover {
+  border-color: #6c25ff;
+}
+
 fieldset input {
   width: 100%;
   border: none;
@@ -34,6 +41,10 @@ fieldset input {
   height: 30px;
   outline: none;
   padding-left: 10px;
+}
+fieldset input::placeholder {
+  color: #cbcbcb;
+  font-size: 13px;
 }
 
 .login-btn {
