@@ -15,8 +15,8 @@ body {
   width: 400px; /* Standard mobile width */
   height: 100vh; /* Standard mobile height */
   background: #f7f8f9;
+  border: 2px solid #dfdddd;
 }
-
 @media (max-width: 400px) {
   .app-container {
     width: 100%;

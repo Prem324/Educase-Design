@@ -1,0 +1,23 @@
+.profile-page {
+  min-height: 90vh;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.profile-details {
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-details p {
+  font-size: 0.9rem;
+}
