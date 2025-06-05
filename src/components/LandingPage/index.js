@@ -3,7 +3,7 @@ import "./index.css";
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
+    <div>
       <h1>LandingPage</h1>
     </div>
   );

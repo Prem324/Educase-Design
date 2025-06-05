@@ -2,4 +2,5 @@
   height: 812px;
   width: 375px;
   background-color: #f7f8f9;
+  display: flex;
 }
