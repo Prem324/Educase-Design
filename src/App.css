@@ -15,10 +15,6 @@ body {
   width: 400px; /* Standard mobile width */
   height: 900px; /* Standard mobile height */
   background: #f7f8f9;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 
 @media (max-width: 400px) {
