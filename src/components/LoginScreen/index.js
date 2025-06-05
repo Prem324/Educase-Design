@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./index.css";
 
 const LoginScreen = () => {
   return (
-    <div>
+    <div className="login-screen">
       <h1>Signin to your PopX account</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
       <fieldset>

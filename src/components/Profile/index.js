@@ -1,4 +1,5 @@
 import React from "react";
+import ProfileImg from "../../assets/Ellipse 114.png";
 
 const Profile = () => {
   return (
@@ -6,7 +7,7 @@ const Profile = () => {
       <h3>Account Settings</h3>
       <div>
         <div>
-          <img alt="profile" />
+          <img src={ProfileImg} alt="profile" />
           <div>
             <p>Marry Doe</p>
             <p>Marry@Gmail.com</p>

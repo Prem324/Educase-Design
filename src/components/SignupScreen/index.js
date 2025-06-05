@@ -5,6 +5,7 @@ const SignupScreen = () => {
   return (
     <div>
       <h1>Create your PopX account</h1>
+
       <fieldset>
         <legend>Full Name</legend>
         Marry Doe

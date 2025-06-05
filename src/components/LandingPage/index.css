@@ -1,8 +1,46 @@
 .landing-page {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  top: 0;
-  left: 0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.landing-page h1 {
+  color: #1d2226;
+  margin-bottom: 0.6rem;
+}
+
+.landing-page p {
+  color: #1d2226;
+  opacity: 60%;
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+  width: 260px;
+}
+
+.cre-acc-btn {
+  top: 669px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background-color: #6c25ff;
+  border-radius: 6px;
+  opacity: 1;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ale-reg-btn {
+  top: 725px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background: #6c25ff4b 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
 }
